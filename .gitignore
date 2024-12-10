@@ -1,0 +1,25 @@
+# 忽略所有构建输出
+build/
+install/
+log/
+*.so
+*.pyc
+__pycache__/
+
+# 忽略ROS 2特定的文件和目录
+.devel/
+AMENT_PREFIX_PATH
+
+# 忽略本地配置文件
+.setupassistant
+
+# 忽略vim/emacs临时文件
+.*.swp
+.*.swo
+*~
+# Emacs
+\#*\#
+.#*
+
+# 忽略VSCode工作区设置
+.vscode/
